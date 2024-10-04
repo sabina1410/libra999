@@ -1,0 +1,304 @@
+.about-the-course * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-the-course body {
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    
+}
+
+.about-the-course {
+    max-width: 1200px;
+    margin: 162px 121px;
+}
+
+.about-the-course .text-and-large-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-the-course .text-content {
+    height: 374px;
+    width: 662px;
+    margin-right: 20px;
+}
+
+.about-the-course h1 {
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.about-the-course p {
+    font-size: 24px;
+}
+
+.about-the-course .large-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-the-course .large-image .img11 {
+    
+    position: relative;
+    margin-top: 65px;
+    width: 314px;
+    height: 315px;
+    margin-bottom: -29px;
+    
+}
+.about-the-course .large-image .img12 {
+    width: 366px;
+    height: 59px;
+   margin-left: -26px;
+}
+.about-the-course .small-image {
+    display: flex;
+    flex-direction: column;
+    
+}
+.about-the-course .small-image .img21 {
+    position: relative;
+   
+    width: 232px;
+    height: 203px;
+    margin-bottom: -16px;
+    
+}
+.about-the-course .small-image .img22 {
+    width: 189px;
+    height: 32px;
+   margin-left: 33px;
+}
+
+.about-the-course .course-details {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about-the-course .small-image {
+   height: 203px;
+    width: 232px;
+    margin-right: 132px;
+}
+
+.about-the-course .small-image img {
+    width: 100%;
+}
+
+.about-the-course .stats {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: -76px;
+}
+
+
+.about-the-course .stat h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.about-the-course .stat p {
+    font-size: 18px;
+}
+
+/* Tablet */
+
+@media(min-width: 992px) and (max-width: 1279px){
+    .about-the-course * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .about-the-course body {
+        font-family: Roboto, sans-serif;
+        padding: 20px;
+        
+    }
+    
+    .about-the-course {
+        max-width: 800px;
+        margin: 100px 70px;
+    }
+    
+    .about-the-course .text-and-large-image {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .about-the-course .text-content {
+        height: 216px;
+        width: 383px;
+    }
+    
+    .about-the-course h1 {
+        font-size: 32px;
+        margin-bottom: 55px;
+    }
+    
+    .about-the-course p {
+        font-size: 14px;
+    }
+    
+    .about-the-course .large-image {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+
+    }
+    
+    .about-the-course .large-image .img11 {
+        
+        position: relative;
+        margin-top: 65px;
+        width: 181px;
+        height: 182px;
+        margin-bottom: -16px;
+        
+    }
+    .about-the-course .large-image .img12 {
+        width: 211px;
+        height: 34px;
+       margin-left: -15px;
+    }
+    .about-the-course .small-image {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .about-the-course .small-image .img21 {
+        position: relative;
+       
+        width: 134px;
+        height: 117px;
+        margin-bottom: -16px;
+        
+    }
+    .about-the-course .small-image .img22 {
+        width: 109px;
+        height: 18px;
+       margin-left: 19px;
+    }
+    
+    .about-the-course .course-details {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    .about-the-course .small-image {
+       height: 203px;
+        width: 232px;
+        margin-right: 50px;
+    }
+    
+    .about-the-course .small-image img {
+        width: 100%;
+    }
+    
+    .about-the-course .stats {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin-top: -80px;
+    }
+    
+    
+    .about-the-course .stat h3 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .about-the-course .stat p {
+        font-size: 11px;
+    }
+}
+
+/* Mobile */
+
+@media(min-width: 320px) and (max-width: 992px){
+    .about-the-course * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .about-the-course body {
+        font-family: Roboto, sans-serif;
+        
+    }
+    
+    .about-the-course {
+        max-width: 375px;
+        margin: 75px 36px;
+    }
+    
+    .about-the-course .text-and-large-image {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-the-course .text-content {
+        height: 174px;
+        width: 308px;
+    }
+    
+    .about-the-course h1 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    
+    .about-the-course p {
+        font-size: 12px;
+    }
+    
+    .about-the-course .large-image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 74px;
+
+    }
+    
+    .about-the-course .large-image .img11 {
+        
+        position: relative;
+        margin-top: 56px;
+        width: 146px;
+        height: 146px;
+        /* margin-bottom: -10px; */
+        
+    }
+    .about-the-course .large-image .img12 {
+        width: 170px;
+        height: 27px;
+       margin-left: -12px;
+       margin-top: 13px;
+    }
+    .about-the-course .small-image {
+        display: none;
+        flex-direction: column;
+        
+    }
+    .about-the-course .stats {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1px;
+        margin-top: -15px;
+        gap: 30px;
+    }
+    
+    
+    .about-the-course .stat h3 {
+        font-size: 12px;
+        /* margin-bottom: 5px; */
+    }
+    
+    .about-the-course .stat p {
+        font-size: 10px;
+    }
+}
